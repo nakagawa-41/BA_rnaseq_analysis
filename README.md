@@ -41,3 +41,8 @@ DESeq2 was used to identify the DEGs.
 source("scripts/03_analysis/visualization.R"") returns results. 
 
 
+**scripts/03_analysis/kegg_pathview.R**. 
+
+KEGG pathview was used to visualize "hsa00190".  
+
+
