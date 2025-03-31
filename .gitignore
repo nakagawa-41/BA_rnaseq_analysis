@@ -1,0 +1,22 @@
+# History files
+.Rhistory
+.Rapp.history
+.Rproj.user
+.Renviron
+
+# Session Data files
+.RData
+.RDataTmp
+
+# User-specific files
+.Ruserdata
+.DS_Store
+
+# data folder 
+data/counts.txt
+data/normalizedCounts.csv
+
+# results folder 
+results/*
+reference/*
+
