@@ -45,4 +45,8 @@ source("scripts/03_analysis/visualization.R"") returns results.
 
 KEGG pathview was used to visualize "hsa00190".  
 
+**scripts/03_analysis/gsea.R**. 
+
+fgsea was used to visualize FXR, PPARG, and NRF2 pathway in GSEA.  
+
 
