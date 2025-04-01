@@ -214,7 +214,7 @@ FXR_heatmap_z <- genefilter::genescale(FXR_heatmap_df, axis = 1, method = "Z")
 FXR_heatmap <- plot_heatmap(data = as.matrix(FXR_heatmap_z[, desired_order]), color = my_color, annotation_col = annotation_col, annotation_colors = ann_colors)
 
 # save plot
-save_plot(plot = nrf2_heatmap, filename = "fxr_heatmap.png", width = 6, height = 9)
+save_plot(plot = FXR_heatmap, filename = "fxr_heatmap.png", width = 6, height = 9)
 
 # ---------------------
 # PPARG heatmap
