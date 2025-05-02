@@ -38,7 +38,7 @@ For annotation data, the comprehensive gene annotation for Release 46 (GRCh38.p1
 
 DESeq2 was used to identify the DEGs.
 
-source("scripts/03_analysis/visualization.R"") returns results. 
+source("scripts/03_analysis/visualization.R") returns results. 
 
 
 **scripts/03_analysis/kegg_pathview.R**. 
