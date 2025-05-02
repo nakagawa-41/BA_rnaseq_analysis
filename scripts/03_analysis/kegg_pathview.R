@@ -17,5 +17,8 @@ deseq_res$entrez <- mapIds(org.Hs.eg.db,
 logFC <- deseq_res$log2FoldChange
 names(logFC) <- deseq_res$entrez
 
-# Visualize KEGG pathway (example: pathway hsa00190)
+# Visualize KEGG pathway hsa00190
 pathview(gene.data = logFC, pathway.id = "hsa00190")
+
+# Visualize KEGG pathway hsa04146
+pathview(gene.data = logFC, pathway.id = "hsa04146")
