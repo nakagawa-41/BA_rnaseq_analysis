@@ -43,7 +43,7 @@ source("scripts/03_analysis/visualization.R"") returns results.
 
 **scripts/03_analysis/kegg_pathview.R**. 
 
-KEGG pathview was used to visualize "hsa00190".  
+KEGG pathview was used to visualize "hsa00190" and "hsa04146".
 
 **scripts/03_analysis/gsea.R**. 
 
